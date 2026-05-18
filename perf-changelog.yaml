@@ -2667,3 +2667,10 @@
     - "Update SGLang image from v0.5.11-cu130 to v0.5.12-cu130"
     - "Temporarily disable agentic-coding scenario (blocked by e2e-tests.yml artifact-name mismatch)"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1415
+
+- config-keys:
+    - qwen3.5-bf16-b200-sglang
+    - qwen3.5-bf16-b200-sglang-mtp
+  description:
+    - "Update SGLang image from nightly-dev-20260216-d3bae71e (86d old) to v0.5.12-cu130"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1446
