@@ -2841,3 +2841,9 @@
   description:
     - "Add Qwen-3.5-397B-A17B FP8 sglang recipes (off + MTP/EAGLE) for H100 on lmsysorg/sglang:v0.5.12-cu130"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1509
+
+- config-keys:
+    - dsr1-fp8-mi325x-sglang-mtp
+  description:
+    - "Add MTP/EAGLE speculative-decoding sibling of dsr1-fp8-mi325x-sglang on lmsysorg/sglang:v0.5.12-rocm700-mi30x"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1500
