@@ -2921,3 +2921,9 @@
   description:
     - "Update SGLang ROCm image from v0.5.10rc0-rocm720-mi35x-20260414 to v0.5.12-rocm720-mi35x-20260517"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1444
+
+- config-keys:
+    - qwen3.5-fp4-mi355x-sglang
+  description:
+    - "Update SGLang ROCm image from rocm/sgl-dev:v0.5.10rc0-rocm720-mi35x-20260413 (32d old, deprecated rocm/sgl-dev repo) to lmsysorg/sglang:v0.5.12-rocm720-mi35x (clean stable tag on the active lmsysorg/sglang repo)"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1497
