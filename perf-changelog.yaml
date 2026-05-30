@@ -3275,3 +3275,9 @@
   description:
     - "Update vLLM ROCm image from v0.20.2 to v0.22.0"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1619
+
+- config-keys:
+    - gptoss-fp4-mi325x-vllm
+  description:
+    - "Update vLLM ROCm image from v0.21.0 to v0.22.0"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1622
