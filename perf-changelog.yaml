@@ -4498,3 +4498,9 @@
   description:
     - "Update SGLang image from lmsysorg/sglang:v0.5.12-cu130 to lmsysorg/sglang:v0.5.14-cu130"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/2058
+
+- config-keys:
+    - kimik2.5-int4-b200-vllm
+  description:
+    - "Update vLLM image from vllm/vllm-openai:v0.22.0 to vllm/vllm-openai:v0.24.0"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/2073
