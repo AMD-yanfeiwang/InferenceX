@@ -4903,6 +4903,15 @@
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/2228
 
 - config-keys:
+    - glm5-fp4-gb200-dynamo-trt-mtp
+  description:
+    - "Add GLM-5 NVFP4 GB200 disaggregated TRT-LLM MTP (spec-decoding) benchmarks via Dynamo"
+    - "New multinode model: glm5 with dynamo-trt framework on GB200, MTP variant"
+    - "Container: nvcr.io/nvidia/ai-dynamo/tensorrtllm-runtime:1.3.0-dev.1-cuda13"
+    - "Recipes sourced from NVIDIA/srt-slurm tag v1.0.26 (gb200_nvfp4 MTP recipes) and staged under the recipes/trtllm/glm5 overlay; prefill tp=4/ep=4 (dep4)"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1800
+
+- config-keys:
     - dsv4-fp4-b300-vllm-agentic
   description:
     - "Update B300 AgentX: KV offload, sparse DSV4 attention, mega-MoE, and FULL_DECODE_ONLY CUDA graphs."
